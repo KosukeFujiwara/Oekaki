@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //画面サイズを取得する！
         Display display = this.getWindowManager().getDefaultDisplay();
         Point point = new Point();
         display.getSize(point);
